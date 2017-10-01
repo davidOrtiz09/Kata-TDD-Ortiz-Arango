@@ -12,3 +12,5 @@ class TestProcesador(TestCase):
     def test_calcular_tamanho2(self):
             self.assertEqual(Procesador.calcular("1,2"), 2, "No son iguales")
 
+    def test_calcular_tamanhoN(self):
+            self.assertEqual(Procesador.calcular("1,2,3"), 3, "No son iguales")
