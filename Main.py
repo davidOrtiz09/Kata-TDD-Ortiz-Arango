@@ -4,5 +4,8 @@ class Procesador:
 
     @staticmethod
     def calcular(param):
-        return 0
+        if param=="":
+            return 0
+        else:
+            return 1
 
