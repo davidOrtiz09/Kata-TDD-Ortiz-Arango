@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0f0f43e0-91cd-4ccd-9b8a-631d1e09c15e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_procesador.py" afterPath="$PROJECT_DIR$/test_procesador.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,15 +13,15 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ProcesadorDeNumeros$Main.coverage" NAME="Main Coverage Results" MODIFIED="1506895461000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/ProcesadorDeNumeros$Unittests_in_test_procesador_py.coverage" NAME="Unittests in test_procesador.py Coverage Results" MODIFIED="1506895658619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ProcesadorDeNumeros$Unittests_in_test_procesador_py.coverage" NAME="Unittests in test_procesador.py Coverage Results" MODIFIED="1506897630095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="test_procesador.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_procesador.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="30" column="60" lean-forward="false" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
+            <state relative-caret-position="405">
+              <caret line="27" column="65" lean-forward="false" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -169,9 +168,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_procesador_py - 2017.10.01 at 16h 26m 33s.xml">
-      <configuration name="Unittests in test_procesador.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_procesador_py - 2017.10.01 at 16h 27m 41s.xml">
       <configuration name="Unittests in test_procesador.py" configurationId="tests" />
     </history-entry>
@@ -197,6 +193,9 @@
       <configuration name="Unittests in test_procesador.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_test_procesador_py - 2017.10.01 at 17h 07m 38s.xml">
+      <configuration name="Unittests in test_procesador.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_procesador_py - 2017.10.01 at 17h 40m 30s.xml">
       <configuration name="Unittests in test_procesador.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -290,8 +289,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_procesador.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="30" column="60" lean-forward="false" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
+        <state relative-caret-position="405">
+          <caret line="27" column="65" lean-forward="false" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
