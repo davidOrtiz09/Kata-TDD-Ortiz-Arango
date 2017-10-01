@@ -9,7 +9,10 @@ class Procesador:
             array.append(0)
             array.append(0)
         else:
-            array.append(len(param.split(",")))
+            res = param.split(",")
+            minimo = int(res[0])
+            array.append(len(res))
+            array.append(minimo)
         return array
 
 
