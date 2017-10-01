@@ -42,5 +42,9 @@ class TestProcesador(TestCase):
     def test_calcular_promedio_vacio(self):
            self.assertEqual(Procesador.calcular("")[3], 0, "No son iguales")
 
-    def test_calcular_promedio_vacio(self):
+    def test_calcular_promedio_1(self):
            self.assertEqual(Procesador.calcular("3")[3], 3, "No son iguales")
+
+    def test_calcular_promedio_2(self):
+           promedio = (3 + 2)/2
+           self.assertEqual(Procesador.calcular("3,2")[3], promedio, "No son iguales")
