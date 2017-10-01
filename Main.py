@@ -3,6 +3,6 @@ class Procesador:
         pass
 
     @staticmethod
-    def calcular():
+    def calcular(param):
         return 0
 
