@@ -28,4 +28,5 @@ class Procesador:
                 array.append(len(res))
                 array.append(minimo)
                 array.append(int(param))
+                array.append(int(param))
         return array

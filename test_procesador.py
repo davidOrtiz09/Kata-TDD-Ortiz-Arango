@@ -43,4 +43,4 @@ class TestProcesador(TestCase):
            self.assertEqual(Procesador.calcular("")[3], 0, "No son iguales")
 
     def test_calcular_promedio_vacio(self):
-           self.assertEqual(Procesador.calcular("4")[3], 4, "No son iguales")
+           self.assertEqual(Procesador.calcular("3")[3], 3, "No son iguales")
