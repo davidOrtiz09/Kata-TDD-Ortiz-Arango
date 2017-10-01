@@ -4,8 +4,13 @@ class Procesador:
 
     @staticmethod
     def calcular(param):
-        if param=="":
-            return 0
+        array = []
+        if param == "":
+            array.append(0)
         else:
-            return  len(param.split(","))
+            array.append(len(param.split(",")))
+        return array
+
+
+
 
