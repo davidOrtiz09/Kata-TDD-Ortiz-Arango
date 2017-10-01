@@ -11,10 +11,12 @@ class Procesador:
         else:
             res = param.split(",")
             minimo = int(res[0])
-            array.append(len(res))
-            array.append(minimo)
+            if len(res) > 1:
+                if int(res[0]) > int(res[1]):
+                    minimo = int(res[1])
+                array.append(len(res))
+                array.append(minimo)
+            else:
+                array.append(len(res))
+                array.append(minimo)
         return array
-
-
-
-
