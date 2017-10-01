@@ -4,5 +4,5 @@ class Procesador:
 
     @staticmethod
     def calcular():
-        return 1
+        return 0
 
