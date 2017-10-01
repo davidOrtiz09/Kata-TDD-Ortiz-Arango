@@ -16,10 +16,9 @@ class Procesador:
             if len(res) > 1:
                 for k in res:
                     if minimo > int(k):
-                        minimo = int(k)
-
-                if int(res[0]) < int(res[1]):
-                    maximo = int(res[1])
+                       minimo = int(k)
+                    else:
+                        maximo = int(k)
 
                 array.append(len(res))
                 array.append(minimo)
