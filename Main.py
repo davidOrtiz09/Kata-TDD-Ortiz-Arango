@@ -7,6 +7,7 @@ class Procesador:
         array = []
         if param == "":
             array.append(0)
+            array.append(0)
         else:
             array.append(len(param.split(",")))
         return array
