@@ -35,3 +35,7 @@ class TestProcesador(TestCase):
 
     def test_calcular_maximo_2(self):
            self.assertEqual(Procesador.calcular("3,2")[2], 3, "No son iguales")
+
+    def test_calcular_maximo_N(self):
+           self.assertEqual(Procesador.calcular("3,2,4,5")[2], 5, "No son iguales")
+
