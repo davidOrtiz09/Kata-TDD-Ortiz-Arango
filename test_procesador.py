@@ -17,3 +17,6 @@ class TestProcesador(TestCase):
 
     def test_calcular_minimo_vacio(self):
             self.assertEqual(Procesador.calcular("")[1], 0, "No son iguales")
+
+    def test_calcular_minimo_tamanho1(self):
+             self.assertEqual(Procesador.calcular("1")[1], 1, "No son iguales")
