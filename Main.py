@@ -14,6 +14,7 @@ class Procesador:
             res = param.split(",")
             minimo = int(res[0])
             maximo = int(res[0])
+            promedio = 0
             if len(res) > 1:
                 for k in res:
                     if minimo > int(k):
@@ -21,9 +22,12 @@ class Procesador:
                     else:
                         maximo = int(k)
 
+                    promedio = (minimo + maximo)/2
+
                 array.append(len(res))
                 array.append(minimo)
                 array.append(maximo)
+                array.append(promedio)
             else:
                 array.append(len(res))
                 array.append(minimo)
