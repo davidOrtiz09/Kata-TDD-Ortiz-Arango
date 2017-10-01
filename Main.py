@@ -23,4 +23,5 @@ class Procesador:
             else:
                 array.append(len(res))
                 array.append(minimo)
+                array.append(int(param))
         return array
