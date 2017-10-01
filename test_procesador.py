@@ -48,3 +48,7 @@ class TestProcesador(TestCase):
     def test_calcular_promedio_2(self):
            promedio = (3 + 2)/2
            self.assertEqual(Procesador.calcular("3,2")[3], promedio, "No son iguales")
+
+    def test_calcular_promedio_N(self):
+           promedio = (3+2+1+4+5+9+8+7)/8
+           self.assertEqual(Procesador.calcular("3,2,1,4,5,9,8,7")[3], promedio, "No son iguales")
